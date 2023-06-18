@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\ps4ki\\Documents\\Progs\\ms-project\\PlatformService\\PlatformService.csproj": {}
+    "C:\\Users\\ps4ki\\Documents\\Progs\\ms-project\\PlatformService\\PlatformService.csproj": {}
   },
   "projects": {
-    "c:\\Users\\ps4ki\\Documents\\Progs\\ms-project\\PlatformService\\PlatformService.csproj": {
+    "C:\\Users\\ps4ki\\Documents\\Progs\\ms-project\\PlatformService\\PlatformService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\ps4ki\\Documents\\Progs\\ms-project\\PlatformService\\PlatformService.csproj",
+        "projectUniqueName": "C:\\Users\\ps4ki\\Documents\\Progs\\ms-project\\PlatformService\\PlatformService.csproj",
         "projectName": "PlatformService",
-        "projectPath": "c:\\Users\\ps4ki\\Documents\\Progs\\ms-project\\PlatformService\\PlatformService.csproj",
+        "projectPath": "C:\\Users\\ps4ki\\Documents\\Progs\\ms-project\\PlatformService\\PlatformService.csproj",
         "packagesPath": "C:\\Users\\ps4ki\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\ps4ki\\Documents\\Progs\\ms-project\\PlatformService\\obj\\",
+        "outputPath": "C:\\Users\\ps4ki\\Documents\\Progs\\ms-project\\PlatformService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ps4ki\\AppData\\Roaming\\NuGet\\NuGet.Config"

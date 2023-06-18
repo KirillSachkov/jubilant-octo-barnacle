@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "69UXggH1HteZEZsP4eXyLR8PrUSW8zcGa52xPi5mwJ3UvVyAjT7EaDxF6eYonNJrk4JYTugUCE6Lil6CSSxJXA==",
+  "dgSpecHash": "OjYI3v9nUUrqQlb+WaBeRVUjdEzrclC0IzO2rZ3Kapk/1Pn1TuYPccyW4SsZ645BE0xGfpBdHoDvc0LQMlyEqw==",
   "success": true,
-  "projectFilePath": "c:\\Users\\ps4ki\\Documents\\Progs\\ms-project\\PlatformService\\PlatformService.csproj",
+  "projectFilePath": "C:\\Users\\ps4ki\\Documents\\Progs\\ms-project\\PlatformService\\PlatformService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ps4ki\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\ps4ki\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
