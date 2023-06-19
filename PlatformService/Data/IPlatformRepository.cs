@@ -6,7 +6,7 @@ public interface IPlatformRepository
 {
     bool SaveChanges();
 
-    List<Platform?> GetAllPlatforms();
+    IEnumerable<Platform?>  GetAllPlatforms();
 
     Platform? GetPlatformById(int id);
 

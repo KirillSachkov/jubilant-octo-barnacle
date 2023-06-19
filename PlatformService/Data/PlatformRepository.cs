@@ -16,7 +16,7 @@ public class PlatformRepository : IPlatformRepository
         _context.Platforms.Add(platform);
     }
 
-    public List<Platform?> GetAllPlatforms()
+    public IEnumerable<Platform?> GetAllPlatforms()
     {
         return _context.Platforms.ToList();
     }
