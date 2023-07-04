@@ -3,10 +3,13 @@ using PlatformService.Data;
 using PlatformService.SyncDataServices.Http;
 
 var builder = WebApplication.CreateBuilder(args);
-
+var configuration = builder.Configuration;
 
 builder.Services.AddDbContext<AppDbContext>(opt =>
     opt.UseInMemoryDatabase("InMem"));
+
+// builder.Services.AddDbContext<AppDbContext>(opt =>
+//     opt.UseSqlServer(configuration.GetConnectionString("PlatformsConn")));
 
 builder.Services.AddScoped<IPlatformRepository, PlatformRepository>();
 
