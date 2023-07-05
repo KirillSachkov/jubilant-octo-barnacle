@@ -78,3 +78,4 @@ c:\Users\ps4ki\Documents\Progs\ms-project\PlatformService\obj\Debug\net7.0\Platf
 c:\Users\ps4ki\Documents\Progs\ms-project\PlatformService\obj\Debug\net7.0\PlatformService.genruntimeconfig.cache
 c:\Users\ps4ki\Documents\Progs\ms-project\PlatformService\obj\Debug\net7.0\ref\PlatformService.dll
 C:\Users\ps4ki\Documents\Progs\ms-project\PlatformService\bin\Debug\net7.0\appsettings.Production.json
+C:\Users\ps4ki\Documents\Progs\ms-project\PlatformService\bin\Debug\net7.0\RabbitMQ.Client.dll

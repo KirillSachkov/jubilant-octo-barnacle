@@ -1,6 +1,4 @@
-﻿using System.Diagnostics.Eventing.Reader;
-
-namespace CommandsService.Data;
+﻿namespace CommandsService.Data;
 
 public interface ICommandRepository
 {

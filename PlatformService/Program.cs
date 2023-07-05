@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using PlatformService.AsyncDataServices;
 using PlatformService.Data;
 using PlatformService.SyncDataServices.Http;
 
@@ -10,6 +11,8 @@ builder.Services.AddDbContext<AppDbContext>(opt =>
 
 // builder.Services.AddDbContext<AppDbContext>(opt =>
 //     opt.UseSqlServer(configuration.GetConnectionString("PlatformsConn")));
+
+builder.Services.AddSingleton<IMessageBusClient, MessageBusClient>();
 
 builder.Services.AddScoped<IPlatformRepository, PlatformRepository>();
 
