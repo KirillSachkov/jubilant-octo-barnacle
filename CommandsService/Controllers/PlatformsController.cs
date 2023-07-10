@@ -9,7 +9,7 @@ namespace CommandsService.Controllers;
 [ApiController]
 public class PlatformsController : ControllerBase
 {
-    private ICommandRepository _commandRepository;
+    private readonly ICommandRepository _commandRepository;
     private readonly IMapper _mapper;
 
     public PlatformsController(ICommandRepository commandRepository, IMapper mapper)

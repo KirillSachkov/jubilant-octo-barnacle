@@ -38,8 +38,7 @@ public class CommandRepository : ICommandRepository
     public Command? GetCommand(int platformId, int commandId)
     {
         return _context.Commands
-            .Where(c => c.PlatformId == platformId && c.Id == commandId)
-            .FirstOrDefault();
+            .FirstOrDefault(c => c.PlatformId == platformId && c.Id == commandId);
     }
 
     public IEnumerable<Command> GetCommandsForPlatform(int platformId)
@@ -52,6 +51,11 @@ public class CommandRepository : ICommandRepository
     public bool PlatformExists(int platformId)
     {
         return _context.Platforms.Any(p => p.Id == platformId);
+    }
+
+    public bool ExternalPlatformExist(int externalPlatformId)
+    {
+        return _context.Platforms.Any(p => p.ExternalID == externalPlatformId);
     }
 
     public bool SaveChanges()
